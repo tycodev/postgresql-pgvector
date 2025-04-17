@@ -1,4 +1,4 @@
-FROM tensorchord/pgvecto-rs:pg16-v0.3.0 as builder
+FROM tensorchord/pgvecto-rs:pg16-v0.4.0 as builder
 
 FROM bitnami/postgresql:16.4.0-debian-12-r16
 
