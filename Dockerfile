@@ -1,4 +1,4 @@
-FROM ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.3.0 AS builder
+FROM ghcr.io/immich-app/postgres:17-vectorchord0.3.0-pgvectors0.3.0 AS builder
 
 FROM bitnami/postgresql:16.4.0-debian-12-r16
 
