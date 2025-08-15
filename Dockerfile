@@ -1,6 +1,6 @@
 FROM ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.3.0 AS builder
 
-FROM bitnami/postgresql:16.4.0-debian-12-r16
+FROM bitnami/postgresql:17.5.0-debian-12-r16
 
 COPY --from=builder /usr/lib/postgresql/16/lib/vector.so /opt/bitnami/postgresql/lib/
 COPY --from=builder /usr/lib/postgresql/16/lib/vectors.so /opt/bitnami/postgresql/lib/
